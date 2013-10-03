@@ -8,6 +8,8 @@ class Plowshare3 < Formula
 
   head 'https://code.google.com/p/plowshare/', :using => :git
 
+  conflicts_with 'plowshare'
+
   depends_on 'recode'
   depends_on 'imagemagick'
   depends_on 'tesseract'
